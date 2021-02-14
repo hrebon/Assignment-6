@@ -84,7 +84,6 @@ const createSlider = (duration) => {
   // hide image aria
   imagesArea.style.display = 'none';
   const time = duration;
-  // const duration = document.getElementById('doration').value || 1000;
   sliders.forEach(slide => {
     let item = document.createElement('div')
     item.className = "slider-item";
@@ -130,7 +129,6 @@ const changeSlide = (index) => {
 
 document.getElementById("search")
     .addEventListener("keypress", function(event) {
-    // event.preventDefault();
     if (event.key == 'Enter'){
       searchBtn.click();
     }
@@ -138,7 +136,6 @@ document.getElementById("search")
 
 document.getElementById("doration")
     .addEventListener("keypress", function(event) {
-    // event.preventDefault();
     if (event.key == 'Enter'){
       sliderBtn.click();
     }
@@ -160,7 +157,6 @@ sliderBtn.addEventListener('click', function () {
   else{
     alert('you give the negative duration');
   }
-  // createSlider();
 })
 
 
