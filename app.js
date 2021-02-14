@@ -54,7 +54,7 @@ const selectItem = (event, img) => {
 
   let item = sliders.indexOf(img);
 
-  if (item == -1) {
+  if (item === -1) {
     sliders.push(img);
   } 
   else {
