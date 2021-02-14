@@ -158,7 +158,7 @@ sliderBtn.addEventListener('click', function () {
     createSlider(duration);
   }
   else{
-    alert('do not the negative value');
+    alert('you give the negative duration');
   }
   // createSlider();
 })
